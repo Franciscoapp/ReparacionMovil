@@ -20,7 +20,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="" href="ReparacionMovil/public/">
+				<a class="" href="/ReparacionMovil/public/">
 				<img class="img-rounded logo" alt="Brand" src="{{ asset('img/logo.png') }}">
 				</a>
 			</div>
