@@ -20,7 +20,12 @@ class IndexController extends Controller {
 		return view('pages.index');
 	}
 
-	public function index()
+	public function contacto()
+	{
+		return view('pages.contacto');
+	}
+
+	public function tutorial()
 	{
 		return view('pages.tutorial');
 	}

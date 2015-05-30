@@ -13,4 +13,5 @@
 
 //Route::get('/', 'WelcomeController@index');
 Route::get('/', 'IndexController@index');
-Route::get('/tutorial/', 'IndexController@tutorial');
+Route::get('/contacto', 'IndexController@contacto');
+Route::get('/tutorial', 'IndexController@tutorial');

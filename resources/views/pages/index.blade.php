@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('css')
+	<link rel="stylesheet" href="{{ asset('css/carousel.css') }}">
+@stop
+
 @section('contenido')
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -22,7 +26,7 @@
           <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Contacto.</h1>
+              <h1>Contácto.</h1>
               <p>Podrás obtener información para contactarnos y obtener nuestros servicios.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Contactar</a></p>
             </div>
@@ -38,8 +42,4 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-@stop
-	<link rel="stylesheet" href="{{ asset('css/carousel.css') }}">
-@section('contenido')
-
 @stop
