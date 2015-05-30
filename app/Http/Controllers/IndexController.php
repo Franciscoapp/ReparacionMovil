@@ -22,7 +22,8 @@ class IndexController extends Controller {
 
 	public function contacto()
 	{
-		return view('pages.contacto');
+		$informacion = DB::table('informacioncontacto')->first();
+		return view('pages.contacto',compact('informacion'));
 	}
 
 	public function tutorial()

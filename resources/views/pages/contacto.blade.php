@@ -9,7 +9,7 @@
       <div class="info">
         <h1>Información de contácto</h1>
         <p class="lead">En esta sección podrá encontrar información que
-			te servirá para ponerte en contacto con nosotros ya sea por
+			le servirá para ponerse en contacto con nosotros ya sea por
 			teléfono o por redes sociales.
         </p>
       </div>
@@ -18,30 +18,31 @@
       	<hr>
         <div class="col-md-5 col-md-offset-1">
           <h4>Teléfono</h4>
-          <p>Fijo: (667) 1-522-554</p>
-          <p>Celular: (667) 7-522-589</p>
+          <p>Fijo: &nbsp; {{$informacion->telefono}}</p>
+		  <br>
 
           <h4>Facebook</h4>
           <p>
           	<a href="">
-          		https://www.facebook.com/YoLoReparo
+          		{{$informacion->cuentaFacebook}}
           	</a>
           </p>
 
-          </div>
+        </div>
 
         <div class="col-lg-5">
           <h4>Twitter</h4>
           <p>
           	<a href="">
-          		https://twitter.com/YoLoReparo
+          		{{$informacion->cuentaTwitter}}
           	</a>
           </p>
+          <br>
 
           <h4>Correo Electrónico</h4>
           <p>
           	<a href="">
-          		Contacto@YoLoReparo.com.mx
+          		{{$informacion->correo}}
           	</a>
           </p>
 

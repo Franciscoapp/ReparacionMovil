@@ -55,9 +55,9 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'yoloarreglocore'),
-            'username'  => env('DB_USERNAME', 'admin'),
-            'password'  => env('DB_PASSWORD', 'webweb'),
+            'database'  => env('DB_DATABASE', 'yoloarreglo'),
+            'username'  => env('DB_USERNAME', 'root'),
+            'password'  => env('DB_PASSWORD', ''),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
