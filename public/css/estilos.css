@@ -10,3 +10,14 @@ nav button{
 	margin-top: 7px;
 	margin-left: 10px;
 }
+
+.container-small{
+	background-color: white;
+	border-radius: 5px;
+	max-width: 730px;
+  	border-bottom: 1px solid #e5e5e5;
+}
+
+.info{
+	text-align: center;
+}
