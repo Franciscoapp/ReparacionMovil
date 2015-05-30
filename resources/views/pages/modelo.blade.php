@@ -6,9 +6,9 @@
 @section('contenido')
 	<div class="container container-small container-white">
 		<ul class="list-unstyled">
-			@foreach($marcas as $marca)
+			@foreach($modelos as $modelo)
 				<li class="lista-li">
-					<a href="modelos/{{$marca->id}}">{{$marca->nombre}}</a><br>
+					<a href="tutorial/{{$modelo->id}}">{{$modelo->nombre}}</a><br>
 				</li>
 			@endforeach
 		</ul>
