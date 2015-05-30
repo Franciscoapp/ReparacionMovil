@@ -28,6 +28,7 @@ class IndexController extends Controller {
 
 	public function tutorial()
 	{
-		return view('pages.tutorial');
+		$marcas = DB::table('marcas')->get();
+		return view('pages.tutorial',compact('marcas'));
 	}
 }

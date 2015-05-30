@@ -84,3 +84,5 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+INSERT INTO `yoloarreglo`.`informacioncontacto` (`cuentaFacebook`, `cuentaTwitter`, `telefono`, `correo`) VALUES ('https://www.facebook.com/YoLoArreglo', 'https://twitter.com/YoLoArreglo', '(667) 1-522-554', 'Contacto@YoLoArreglo.com.mx');

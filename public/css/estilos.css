@@ -21,3 +21,20 @@ nav button{
 .info{
 	text-align: center;
 }
+
+.lista-li :hover{
+	background-color: #16a085;
+}
+
+.lista-li a{
+	background-color: #1abc9c;
+	border-radius: 2px;
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #16a085;
+	margin-top: 5px;
+	color: white;
+	width: 100%;
+	display: block;
+}
