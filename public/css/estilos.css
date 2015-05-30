@@ -1,4 +1,12 @@
+body{
+	background-color: rgb(0, 0, 0);
+}
 nav img{
-	max-width: 50px;
-	max-height: 100px;
+	max-width: 37px;
+	margin-top: 6px;
+}
+
+nav button{
+	margin-top: 7px;
+	margin-left: 10px;
 }

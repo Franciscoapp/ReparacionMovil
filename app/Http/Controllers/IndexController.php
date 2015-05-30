@@ -19,4 +19,9 @@ class IndexController extends Controller {
 	{
 		return view('pages.index');
 	}
+
+	public function index()
+	{
+		return view('pages.tutorial');
+	}
 }
