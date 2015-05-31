@@ -13,9 +13,10 @@
 		<hr>
 		<ul class="list-unstyled row">
 			@foreach($tutoriales as $tutorial)
-				<li class="lista-li col-xs-6 text-center">
-					<a href="tutoriales/{{$tutorial->id}}">
-						{{$tutorial->nombre}}
+				<li class="lista-li col-xs-6">
+					<a href="../tutorial/{{$tutorial->id}}">
+						<img class="img-rounded" src="{{ asset('img').'/'.$tutorial->img}}">
+						<span>{{$tutorial->nombre}}</span>
 					</a><br>
 				</li>
 			@endforeach

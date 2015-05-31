@@ -35,3 +35,31 @@ nav button{
 	width: 100%;
 	display: block
 }
+
+.lista-li img{
+	max-width: 100px;
+}
+
+.lista-li span{
+	padding-left: 18px;
+}
+
+.cabecera-tutorial{
+	margin-top: 12px;
+}
+
+.cabecera-tutorial img{
+    display:inline-block;
+   vertical-align: top;
+	margin-right: 31px;
+}
+
+.cabecera-tutorial div{
+    display: inline-block;
+	width: 355px;
+}
+
+.lista-paso{
+	padding-left: 15px;
+	padding-right: 15px;
+}

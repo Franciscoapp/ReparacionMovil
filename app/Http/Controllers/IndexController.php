@@ -40,7 +40,15 @@ class IndexController extends Controller {
 
 	public function tutoriales($id)
 	{
-		$tutoriales = DB::table('tutorial')->where('modelo_id','=',$id)->get();
+		$tutoriales = DB::table('tutoriales')->where('modelo_id','=',$id)->get();
 		return view('pages.tutoriales',compact('tutoriales'));
+	}
+
+	public function tutorial($id)
+	{
+		$tutorial = DB::table('tutoriales')->where('id','=',$id)->first();
+		$pasos = DB::table('pasos')->where('tutorial_id','=',$id)->get();
+		return view('pages.tutorial',compact('tutorial','pasos'));
+		//return View::make('pages.tutorial',array('tutorial'=>$tutorial,'pasos'=>$pasos));
 	}
 }
