@@ -16,3 +16,4 @@ Route::get('/', 'IndexController@index');
 Route::get('/contacto', 'IndexController@contacto');
 Route::get('/marcas', 'IndexController@marcas');
 Route::get('/modelos/{id}', 'IndexController@modelos');
+Route::get('/tutoriales/{id}', 'IndexController@tutoriales');

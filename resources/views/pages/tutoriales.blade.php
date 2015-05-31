@@ -7,15 +7,15 @@
 	<div class="container container-small container-white">
 		<h2 class="text-center">
 			<strong>
-				¿Cuál es su marca?
+				¿Qué tutorial deseas realizar?
 			</strong>
 		</h2>
 		<hr>
 		<ul class="list-unstyled row">
-			@foreach($modelos as $modelo)
+			@foreach($tutoriales as $tutorial)
 				<li class="lista-li col-xs-6 text-center">
-					<a href="../tutoriales/{{$modelo->id}}">
-						{{$modelo->nombre}}
+					<a href="tutoriales/{{$tutorial->id}}">
+						{{$tutorial->nombre}}
 					</a><br>
 				</li>
 			@endforeach

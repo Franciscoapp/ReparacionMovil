@@ -37,4 +37,10 @@ class IndexController extends Controller {
 		$modelos = DB::table('modelos')->where('marca_id','=',$id)->get();
 		return view('pages.modelos',compact('modelos'));
 	}
+
+	public function tutoriales($id)
+	{
+		$tutoriales = DB::table('tutorial')->where('modelo_id','=',$id)->get();
+		return view('pages.tutoriales',compact('tutoriales'));
+	}
 }

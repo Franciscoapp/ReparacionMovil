@@ -100,3 +100,6 @@ INSERT INTO `yoloarreglo`.`modelos` (`nombre`, `marca_id`) VALUES ('Asus Padfone
 INSERT INTO `yoloarreglo`.`modelos` (`nombre`, `marca_id`) VALUES ('Asus PadFone S', '3');
 INSERT INTO `yoloarreglo`.`modelos` (`nombre`, `marca_id`) VALUES ('Motorola Atrix 4G', '4');
 INSERT INTO `yoloarreglo`.`modelos` (`nombre`, `marca_id`) VALUES ('Motorola Cliq', '4');
+
+INSERT INTO `yoloarreglo`.`tutorial` (`nombre`, `descripcion`, `modelo_id`) VALUES ('Desensamblaje', 'El Samsung Captivate Glide es un dispositivo bastante fácil de desmontar y reparar. Sólo se necesita una sola punta del destornillador y las partes son todas modulares y puede ser reemplazado fácilmente.', '1');
+INSERT INTO `yoloarreglo`.`tutorial` (`nombre`, `descripcion`, `modelo_id`) VALUES ('Reemplazo de pantalla', 'Como reemplazar una pantalla del Samsung Captivate Glide', '1');
