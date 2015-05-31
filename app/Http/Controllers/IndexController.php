@@ -51,4 +51,9 @@ class IndexController extends Controller {
 		return view('pages.tutorial',compact('tutorial','pasos'));
 		//return View::make('pages.tutorial',array('tutorial'=>$tutorial,'pasos'=>$pasos));
 	}
+
+	public function login()
+	{
+		return view('pages.login');
+	}
 }

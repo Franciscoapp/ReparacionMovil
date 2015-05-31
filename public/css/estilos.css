@@ -11,6 +11,9 @@ nav button{
 	margin-left: 10px;
 }
 
+.boton-barra{
+	margin: -15px;
+}
 .container-small{
 	background-color: white;
 	border-radius: 5px;

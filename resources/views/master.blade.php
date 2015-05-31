@@ -33,7 +33,7 @@
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 					<li><button class="btn btn-success">Registrarse</button></li>
-					<li><button class="btn btn-info">Iniciar Sesión</button></li>
+					<li><a class="boton-barra" href="/ReparacionMovil/public/login"><button class="btn btn-info">Iniciar Sesión</button></a></li>
 				  </ul>
 		    	</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->

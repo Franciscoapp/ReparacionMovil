@@ -135,3 +135,5 @@ INSERT INTO `yoloarreglo`.`pasos` (`nombre`, `descripcion`, `tutorial_id`) VALUE
 INSERT INTO `yoloarreglo`.`pasos` (`nombre`, `descripcion`, `tutorial_id`) VALUES ('Paso 4', 'Con la herramienta de abertura de plástico, retire la placa posterior haciendo palanca en los cuatro puntos principales.', '2');
 INSERT INTO `yoloarreglo`.`pasos` (`nombre`, `descripcion`, `tutorial_id`) VALUES ('Paso 5', 'Con la herramienta de abertura de plástico para hacer palanca alrededor de los bordes, suelte la pantalla táctil del marco de la pantalla.', '2');
 INSERT INTO `yoloarreglo`.`pasos` (`nombre`, `descripcion`, `tutorial_id`) VALUES ('Paso 6', 'Mientras el adhesivo está todavía caliente, utilice la herramienta de abertura de plástico para eliminar suavemente el cable de la flexión del teclado de la pantalla.', '2');
+
+INSERT INTO `yoloarreglo`.`usuarios` (`nombreUsuario`, `password`, `nombre`) VALUES ('franciscoapp', '1234', 'Francisco Antonio');
