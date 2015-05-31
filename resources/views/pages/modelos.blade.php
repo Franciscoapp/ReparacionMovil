@@ -7,7 +7,7 @@
 	<div class="container container-small container-white">
 		<h2 class="text-center">
 			<strong>
-				¿Cuál es su marca?
+				¿Cuál es su modelo?
 			</strong>
 		</h2>
 		<hr>
