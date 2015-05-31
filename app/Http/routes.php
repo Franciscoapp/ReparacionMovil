@@ -14,5 +14,5 @@
 //Route::get('/', 'WelcomeController@index');
 Route::get('/', 'IndexController@index');
 Route::get('/contacto', 'IndexController@contacto');
-Route::get('/marca', 'IndexController@marca');
-Route::get('/modelo/{id}', 'IndexController@modelo');
+Route::get('/marcas', 'IndexController@marcas');
+Route::get('/modelos/{id}', 'IndexController@modelos');

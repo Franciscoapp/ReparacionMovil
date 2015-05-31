@@ -18,7 +18,7 @@
             <div class="carousel-caption">
               <h1>Tutoriales.</h1>
               <p>Podrás obtener información muy útil para la reparación de tu dispositivo.</p>
-              <p><a class="btn btn-lg btn-primary" href="/ReparacionMovil/public/marca" role="button">Acceder</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/ReparacionMovil/public/marcas" role="button">Acceder</a></p>
             </div>
           </div>
         </div>
